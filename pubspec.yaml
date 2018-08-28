@@ -1,5 +1,5 @@
 name: boringssl_flutter
-description: Flutter binding of BoringSSL
+description: Flutter binding of crypto algorithms from BoringSSL
 version: 0.0.1
 author:
 homepage:

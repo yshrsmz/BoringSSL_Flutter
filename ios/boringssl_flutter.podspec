@@ -4,9 +4,9 @@
 Pod::Spec.new do |s|
   s.name             = 'boringssl_flutter'
   s.version          = '0.0.1'
-  s.summary          = 'Flutter binding of BoringSSL'
+  s.summary          = 'Flutter binding of crypto algorithms from BoringSSL'
   s.description      = <<-DESC
-Flutter binding of BoringSSL
+Flutter binding of crypto algorithms from BoringSSL
                        DESC
   s.homepage         = 'http://example.com'
   s.license          = { :file => '../LICENSE' }

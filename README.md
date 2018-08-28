@@ -1,6 +1,6 @@
-# BoringSSL_Flutter
+# boringssl_flutter
 
-Flutter binding of BoringSSL
+Flutter binding of crypto algorithms from BoringSSL
 
 ## Getting Started
 

@@ -31,4 +31,14 @@ android {
     lintOptions {
         disable 'InvalidPackage'
     }
+    sourceSets {
+        main {
+            jniLibs.srcDirs = ['../third_party/boringssl/android/lib']
+        }
+    }
+    externalNativeBuild {
+        cmake {
+            path 'src/main/cpp/CMakeLists.txt'
+        }
+    }
 }
