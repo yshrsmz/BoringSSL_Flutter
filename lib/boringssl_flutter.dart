@@ -10,4 +10,10 @@ class BoringsslFlutter {
     final String version = await _channel.invokeMethod('getPlatformVersion');
     return version;
   }
+
+  static Future<String> getSha512Digest(String source) async {
+    final String digest = await _channel
+        .invokeMethod("getSha512Digest", <String, dynamic>{'source': source});
+    return digest;
+  }
 }
